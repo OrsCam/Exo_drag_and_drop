@@ -1,0 +1,61 @@
+body {
+    background: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.basecircle {
+    background-color: teal;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.baserectangle {
+    background-color: teal;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.tenucircle{
+    border: solid 5px #ccc;
+    border-radius: 50%;
+}
+
+.tenurectangle {
+    border: solid 5px #ccc;
+}
+
+.casecircle {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.caserectangle {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    background: #fff;
+}
+
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+    border-color: grey
+}
